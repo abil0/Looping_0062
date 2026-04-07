@@ -14,10 +14,15 @@ int main()
     cout << endl;
 
     srand(time(0));
-    int x = rand() % 10;
-    cout << "angka acak: " << x << endl;
-
-    for (int i = 1; i <= x; i++) {
-        cout << i << endl;
+    int x = 1 +rand() % 10;
+    while (x <= 5) {
+        cout << "Bilangan acak =" << x <<endl;
+        x = rand() % 10;
     }
+ 
+    cout << "Bilangan acak while yang terakhir ="
+    << x << endl;
+    cout << endl;
+
+    
 }
