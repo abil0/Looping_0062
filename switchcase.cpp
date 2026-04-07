@@ -40,4 +40,8 @@ void output() {
     cout << "Status Kuota : " << statuskuota << endl;
     cout << "............................." << endl;
 }
-
+int main() {
+    input();
+    pilihanjurusan();
+    output();
+}
