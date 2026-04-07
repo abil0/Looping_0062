@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     int x;
-    cout << "perulangan for" << endl;
+    cout << "perulangan for while" << endl;
 
     for (int i = 0; i <= 4; i++) {
         cout << "Teknologi informasi UMY" << endl;
@@ -24,5 +24,14 @@ int main()
     << x << endl;
     cout << endl;
 
-    
+    cout << "perulangan do...while" << endl;
+    x = 1 + rand() % 10;
+    do {
+        cout << "Bilangan acak =" << x << endl;
+        x = rand() % 10;
+    } while (x <= 5);
+    cout << "Bilangan acak do...while yang terakhir =" << x << endl;
+    cout << endl;
+
+    return 0;
 }
