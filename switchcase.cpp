@@ -44,4 +44,6 @@ int main() {
     input();
     pilihanjurusan();
     output();
+
+    return 0;
 }
