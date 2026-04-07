@@ -34,3 +34,10 @@ void pilihanjurusan() {
         break;
     }
 }
+void output() {
+    cout << "\n ===== HASIL SELEKSI ====" << endl;
+    cout << "Nama Jurusan : " << namajurusan << endl;
+    cout << "Status Kuota : " << statuskuota << endl;
+    cout << "............................." << endl;
+}
+
