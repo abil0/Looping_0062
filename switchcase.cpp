@@ -14,3 +14,23 @@ void input() {
     cout << "Masukkan Kode Jurusan (1-3): ";
     cin >> kodejurusan;
 }
+void pilihanjurusan() {
+    switch (kodejurusan){
+        case 1:
+        namajurusan = "Teknologi Informasi";
+        statuskuota = "Tersedia (15 kursi)";
+        break;
+        case 2:
+        namajurusan = "Teknik Elektro";
+        statuskuota = "Kuota penuh";
+        break;
+        case 3:
+        namajurusan = "Sistem Informasi";
+        statuskuota = "Tersedia (5 kursi)";
+        break;
+        default:
+        namajurusan = " Tidak Diketahui";
+        statuskuota = "Eror : kode tidak valid";
+        break;
+    }
+}
